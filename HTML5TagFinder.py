@@ -32,6 +32,16 @@ soup = BeautifulSoup(the_page)
 #print(soup.prettify())
 
 for tag in soup.find_all(isSemanticTag):
+
+    print ''
+    print ''
+    print ''
+    print ''
+    print ''
+    print ''
+    print ''
+    print ''    
     print(tag.name)
+    print(tag.contents)
 
 
